@@ -13,9 +13,6 @@ const NEWTPE_ZONE_ARRAY = ["萬里區", "萬里", "金山", "金山區", "板橋
     "樹林區", "樹林", "鶯歌區", "鶯歌", "三重區", "三重", "新莊區", "新莊", "泰山區", "泰山", "林口區", "林口", "蘆洲區", "蘆洲", "五股區", "五股", "八里區", "八里", "淡水區", "淡水",
     "三芝區", "三芝", "石門區", "石門區"]
 
-const CHANNEL_ACCESS_TOKEN = '6KWMG7l3JRt1VEVHPIv0+pGZemFqFok/B2n/7tu+m6LefSjX2IfwT6wqruFEK6ANNzboceCdtNfmveIeGUsLjitKtnJGQos0yCHjZSjmfLrkihRenKtTD3sRrI8m3zLRiIwEROQnoJnts44HfcJoyQdB04t89/1O/w1cDnyilFU='
-const CHANNEL_ID = '1504900799'
-const CHANNEL_SECRET = '232e88ea9edbbad44de3049656f84867'
 
 pg.defaults.ssl = true
 pg.connect(process.env.DATABASE_URL, function (err, client) {
